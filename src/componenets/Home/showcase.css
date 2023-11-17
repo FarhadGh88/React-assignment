@@ -1,0 +1,75 @@
+.showcase {
+    background-color: #F0EFE9;
+    position: relative;
+    align-items: center;
+    z-index: 0;
+    width: 1920px;
+    margin-left: 10px;
+  }
+  .showcase .background-lins {
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+  }
+  .showcase .container {
+    display: flex;
+    width: 1520px;
+    justify-content: center;
+    align-items: center;
+  }
+  .showcase .container .content {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  @media (min-width: 1200px) {
+    .showcase .container .content {
+      text-align: left;
+    }
+  }
+  .showcase .container .content h1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+  }
+  @media (min-width: 760px) {
+    .showcase .container .content h1 {
+      font-size: 75px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .showcase .container .content h1 {
+      font-size: 90px;
+    }
+  }
+  .showcase .container .content p {
+    font-size: 17px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  @media (min-width: 760px) {
+    .showcase .container .content p {
+      font-size: 20px;
+    }
+  }
+  .showcase .container .content a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  @media (min-width: 760px) {
+    .showcase .container .content a {
+      display: inline-block;
+    }
+  }
+  .showcase .container img {
+    display: none;
+    margin-right: -5px;
+  }
+  @media (min-width: 1200px) {
+    .showcase .container img {
+      display: block;
+    }
+  }
+  

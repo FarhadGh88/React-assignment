@@ -1,0 +1,199 @@
+
+.about-company {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .about-company .container {
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  @media (min-width: 990px) {
+    .about-company .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-left: 0px;
+      margin-top: 20px;
+    }
+  }
+  .about-company .container .about-image {
+    display: none;
+  }
+  @media (min-width: 980px) {
+    .about-company .container .about-image {
+      display: flex;
+      padding-left: 100px;
+      position: relative;
+    }
+  }
+  .about-company .container .about-image .Welement {
+    position: absolute;
+    top: 35px;
+    margin-left: -35px;
+  }
+  .about-company .container .about-image .darina-photo {
+    width: 530px;
+    height: 615px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .about-company .container .about-image .image-text {
+    background-color: #BEEBFF;
+    position: absolute;
+    width: 368px;
+    height: 180px;
+    bottom: 160px;
+    margin-left: -56px;
+    text-align: left;
+  }
+  .about-company .container .about-image .image-text h3 {
+    padding-left: 24px;
+    padding-top: 30px;
+    color: #191919;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "DM Sans", sans-serif;
+  }
+  .about-company .container .about-image .image-text h3 span {
+    color: #F94D1C;
+  }
+  .about-company .container .about-image .image-text p {
+    padding-left: 24px;
+    padding-top: 20px;
+    font-family: "Inter", sans-serif;
+    color: #191919;
+    font-size: 16px;
+  }
+  .about-company .container .about-text {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 120px;
+    margin-right: 0px;
+  }
+  .about-company .container .about-text .section-title {
+    padding-top: 0px;
+  }
+  .about-company .container .about-text h3 {
+    color: RGBA(25, 25, 25, 0.7);
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    line-height: 2;
+  }
+  .about-company .container .about-text .about-buttons {
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (min-width: 980px) {
+    .about-company .container .about-text .about-buttons {
+      text-align: center;
+    }
+  }
+  .about-company .container .about-text .about-buttons .btn-play {
+    display: flex;
+    border: none;
+    color: #191919;
+    padding-left: 20px;
+    align-items: center;
+  }
+  .about-company .container .about-text .about-buttons .btn-play a {
+    font-size: 35px;
+    padding-left: 20px;
+    text-justify: center;
+    color: #191919;
+  }
+  .about-company .container .about-text .about-buttons .btn-play p {
+    color: #191919;
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+  }
+  .about-company .project-and-case-section .container .section-title {
+    text-align: center;
+  }
+  .about-company .project-and-case-section .container .project-and-cases {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  @media (min-width: 768px) {
+    .about-company .project-and-case-section .container .project-and-cases {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .about-company .project-and-case-section .container .project-and-cases article {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+  .about-company .project-and-case-section .container .project-and-cases article img {
+    width: 100%;
+    height: auto;
+  }
+  .about-company .project-and-case-section .container .project-and-cases article h3 {
+    color: #191919;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #DADAD3;
+  }
+  .about-company .project-and-case-section .container .project-and-cases article:hover {
+    text-decoration: underline;
+  }
+  .about-company .project-and-case-section .container .project-and-cases article a {
+    padding: 15px;
+    display: block;
+    text-align: right;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #191919;
+  }
+  .about-company .project-and-case-section .container .project-and-cases article a i {
+    margin-left: 3px;
+  }
+  .about-company .project-and-case-section .container .project-and-cases article a:hover {
+    text-decoration: underline;
+  }
+  .about-company .project-and-case-section .container .center-content {
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  .about-company .newsletter {
+    position: relative;
+    background-color: #F0EFE9;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .about-company .newsletter .background-wavy-lines {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+  }
+  .about-company .newsletter .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about-company .newsletter .container h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .about-company .newsletter .container form input {
+    color: #191919;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #DADAD3;
+    margin-right: 20px;
+  }
+  

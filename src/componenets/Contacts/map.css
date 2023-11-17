@@ -1,0 +1,16 @@
+  
+  .map {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .map iframe {
+    width: 980PX;
+    height: 620px;
+  }
+  @media (min-width: 980px) {
+    .map iframe {
+      width: 1920px;
+      height: 620px;
+    }
+  }

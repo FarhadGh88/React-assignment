@@ -1,0 +1,171 @@
+
+.meet-our-team {
+    background-color: RGBA(240, 208, 130, 0.93);
+    padding-bottom: 110px;
+  }
+  .meet-our-team .container .meet-team-text {
+    display: block;
+    text-align: center;
+  }
+  @media (min-width: 980px) {
+    .meet-our-team .container .meet-team-text {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+  }
+  .meet-our-team .container .meet-team-text .section-title {
+    padding-bottom: 0px;
+  }
+  .meet-our-team .container .meet-team-text h2 {
+    font-size: 45px;
+  }
+  .meet-our-team .container .meet-team-text .meet-team-btn {
+    display: block;
+  }
+  @media (min-width: 980px) {
+    .meet-our-team .container .meet-team-text .meet-team-btn {
+      display: flex;
+    }
+  }
+  .meet-our-team .container .meet-team-text .meet-team-btn .btn-yellow {
+    border: 1px solid #191919;
+    padding: 12px 30px;
+  }
+  .meet-our-team .container .all-slider {
+    display: flex;
+    justify-content: center;
+  }
+  .meet-our-team .container .all-slider a {
+    display: flex;
+    background-color: #DADAD3;
+    border-radius: 50%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+    width: 12px;
+    text-decoration: none;
+  }
+  .meet-our-team .container .all-slider a:hover {
+    cursor: pointer;
+    background-color: #191919;
+  }
+  .meet-our-team .container .team-members {
+    display: grid;
+    grid-template-columns: repeat(2, 308px);
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 20px;
+  }
+  @media (min-width: 990px) {
+    .meet-our-team .container .team-members {
+      display: grid;
+      grid-template-columns: repeat(4, 308px);
+      justify-content: center;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      gap: 30px;
+    }
+  }
+  .meet-our-team .container .team-members img {
+    width: 308px;
+    height: 420px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .meet-our-team .container .team-members .members-name {
+    padding-top: 25px;
+  }
+  .meet-our-team .container .team-members .members-name h3 {
+    color: #191919;
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .meet-our-team .container .team-members .members-name p {
+    padding-top: 20px;
+    font-family: "Inter", sans-serif;
+    color: #191919;
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  .meet-our-team .testimonial {
+    height: auto;
+    width: 1520px;
+    margin-left: 200px;
+    background-color: #ffffff;
+  }
+  @media (min-width: 980px) {
+    .meet-our-team .testimonial {
+      height: 887px;
+    }
+  }
+  .meet-our-team .testimonial .section-title {
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+  }
+  .meet-our-team .testimonial .contents {
+    display: grid;
+    grid-template-columns: repeat(1, 420px);
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    justify-content: center;
+  }
+  @media (min-width: 980px) {
+    .meet-our-team .testimonial .contents {
+      grid-template-columns: repeat(3, 420px);
+    }
+  }
+  .meet-our-team .testimonial .contents .content-box {
+    margin-top: 45px;
+    padding: 35px;
+    padding-top: 0px;
+  }
+  .meet-our-team .testimonial .contents .content-box i {
+    color: #F94D1C;
+    font-size: 15px;
+    padding: 4px;
+    margin-bottom: 25px;
+  }
+  .meet-our-team .testimonial .contents .content-box h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 35px;
+  }
+  .meet-our-team .testimonial .contents .content-box .clients {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  .meet-our-team .testimonial .contents .content-box .clients img {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .meet-our-team .testimonial .contents .content-box .clients .clients-info {
+    align-items: center;
+    padding-left: 15px;
+  }
+  .meet-our-team .testimonial .contents .content-box .clients .clients-info p {
+    color: #F94D1C;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .meet-our-team .testimonial .contents .content-box .clients .clients-info h2 {
+    color: #191919;
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .meet-our-team .testimonial .center-content {
+    margin-top: 70px;
+  }

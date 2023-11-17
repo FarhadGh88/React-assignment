@@ -1,0 +1,97 @@
+
+.our-service {
+    background-color: #F0EFE9;
+    position: relative;
+  }
+  .our-service .background-lines-right {
+    display: none;
+  }
+  @media (min-width: 980px) {
+    .our-service .background-lines-right {
+      position: absolute;
+      display: flex;
+      bottom: 0;
+      right: 0;
+    }
+  }
+  .our-service .container {
+    padding-bottom: 110px;
+  }
+  .our-service .container .section-title {
+    display: block;
+  }
+  @media (min-width: 990px) {
+    .our-service .container .section-title {
+      display: block;
+      padding-right: 550px;
+      padding-bottom: 45px;
+    }
+  }
+  .our-service .container .services {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    gap: 30px;
+    justify-content: center;
+  }
+  @media (min-width: 990px) {
+    .our-service .container .services {
+      display: grid;
+      grid-template-columns: repeat(4, 250px);
+      gap: 30px;
+    }
+  }
+  .our-service .container .service-content {
+    display: block;
+    margin-bottom: 45px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .our-service .container .service-content .box {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    border-top: 2px solid #191919;
+    left: 30px;
+    top: 45px;
+  }
+  .our-service .container .service-content .content-text {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    margin-bottom: 90px;
+    position: relative;
+  }
+  .our-service .container .service-content .content-text h3 {
+    color: #191919;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+  }
+  .our-service .container .service-content .content-text p {
+    color: RGBA(25, 25, 25, 0.7);
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .our-service .container .service-content .content-text a {
+    font-size: 15px;
+    background-color: #191919;
+    padding: 10px 13px;
+    border-radius: 50px;
+    color: #ffffff;
+    position: absolute;
+    right: 30px;
+  }
+  .our-service .container .service-content:hover {
+    background-color: #F9D783;
+  }
+  .our-service .container .service-content:hover a {
+    background-color: #Ffffff;
+    color: #191919;
+  }
+  .our-service .container .service-content .service-btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }

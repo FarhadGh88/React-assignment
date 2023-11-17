@@ -1,0 +1,121 @@
+footer {
+  padding-bottom: 20PX;
+  padding-top: 15px;
+  position: relative;
+  background-color: #0E1021;
+}
+@media (min-width: 980px) {
+  footer {
+    height: 461px;
+    padding-bottom: 80px;
+  }
+}
+footer .background-lines-right {
+  display: none;
+}
+@media (min-width: 980px) {
+  footer .background-lines-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: blocK;
+  }
+}
+footer .container {
+  background-color: #0E1021;
+}
+footer .container .all-content {
+  display: flex;
+}
+footer .container .all-content .logo {
+  display: none;
+}
+@media (min-width: 980px) {
+  footer .container .all-content .logo {
+    padding-top: 114px;
+    display: block;
+    width: 311px;
+  }
+}
+footer .container .all-content .logo p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: RGBA(255, 255, 255, 0.7);
+  padding-top: 29px;
+  width: 310px;
+}
+footer .container .all-content .content-text {
+  padding-top: 0px;
+  color: #ffffff;
+}
+footer .container .all-content .content-text h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+footer .container .all-content .content-text .links {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: RGBA(255, 255, 255, 0.7);
+  width: 156px;
+  font-weight: 500;
+  line-height: 30px;
+  display: block;
+}
+footer .container .all-content .content-text .links a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+footer .container .all-content .content-text .links a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+@media (min-width: 980px) {
+  footer .container .all-content {
+    display: flex;
+    height: 433px;
+  }
+  footer .container .all-content .content-text {
+    padding-top: 132px;
+    margin-left: 65px;
+    align-items: left;
+  }
+}
+footer .copyright-footer {
+  height: 52px;
+  border-top: 1.5px solid RGBA(255, 255, 255, 0.2);
+}
+footer .copyright-footer .container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+@media (min-width: 980) {
+  footer .copyright-footer .container {
+    padding-top: 30px;
+  }
+}
+footer .copyright-footer p {
+  color: #ffffff;
+}
+footer .copyright-footer a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: RGBA(255, 255, 255, 0.7);
+}
+footer .copyright-footer .social-media {
+  padding-bottom: 10px;
+}
+@media (min-width: 990px) {
+  footer .copyright-footer .social-media {
+    display: block;
+  }
+}
+footer .copyright-footer .social-media a {
+  color: #ffffff;
+  margin-right: 15px;
+  font-size: 15px;
+}
